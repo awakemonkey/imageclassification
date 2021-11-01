@@ -1,7 +1,7 @@
 # Fruit and Vegetables recognition and classification Application for self-checking machine
 
 ## This project is still on going and coding part is not finished yet.
-## The code files just present a prototpye of Image Classification model, which trained by using tensorflow, keras and CNN algorithm.
+## The code files just present a prototpye of Image Classification model, which trained by using tensorflow, keras and CNN algorithm. And a ### sp.py ### file
 ### The database used in this case is the original dataset from Fruit-360 on Kaggle, and the dataset maybe too large to run when training the model, so I only keep 13 items for prototype. 
 
 ### If you want to use this code to train your own model, please remember to change the path of dataset, and also the category name.
