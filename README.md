@@ -63,7 +63,7 @@ no_of_classes = len(np.unique(y_train))
 no_of_classes
 11
 ```
-the number of classes in this model is the value of Dense in the following code
+the number of classes in this model is the value of Dense in the following code:
 ```ruby
 model.add(Dense(11,activation = 'softmax'))
 ```
@@ -88,8 +88,8 @@ You can now view your Streamlit app in your browser.
 Local URL: http://localhost:85xx
 Network URL: http://192.xxx.xxx.xxx
 ```
-wait browser open a new page automatically or copy local URL to open a new page manually
-9. Then, have fun and enjoy the **debugging**
+wait browser open a new page automatically or copy local URL to open a new page manually.<br />
+8. Then, have fun and enjoy the **debugging**
 
 
 
