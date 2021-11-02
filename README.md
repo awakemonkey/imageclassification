@@ -92,5 +92,24 @@ wait browser open a new page automatically or copy local URL to open a new page 
 <br />
 8. Then, have fun and enjoy the **debugging**
 
+### If you only want to try the demo/prototype, just start from Step 6 and make sure you change path to correct location, <br />
+### and you can try the model with any fruit and vegetables download from online. <br />
+### But please remember this model only trained by the following categories of data:
+```ruby
+print('\n'.join(map(str, target_labels)))
 
-
+Apple Gala
+Apple Green
+Apple Queen
+Apricot
+Avocado
+Avocado ripe
+Banana Lady Finger
+Eggplant
+Kiwi
+Onion Red
+Tomato
+```
+### and you can download any image belongs to these 11 categories to TestImages folder and refresh the streamlit page to predict.
+<br />
+# Have fun
