@@ -84,6 +84,7 @@ streamlit run st.py
 and you will see:
 ```ruby
 ![image](https://user-images.githubusercontent.com/39287382/139845553-76219f81-ae18-44aa-ad00-97c63422cb78.png)
+
 ```
 9. Have fun and enjoy the **debugging**
 
