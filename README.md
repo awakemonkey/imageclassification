@@ -1,4 +1,4 @@
-<h1 align="center">Fruit and Vegetables recognition and classification Application for self-checking machine</h1>
+<h1 align="center">Fruit and Vegetables Classification Model</h1>
 
 ## This project is still on going and coding part is not finished yet. 
 ## The code files just present a prototpye of Image Classification model, which trained by using tensorflow, keras and CNN algorithm. And the sp.py file shows how to present the model with an interactive UI and it is not finished yet.
