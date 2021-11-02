@@ -43,6 +43,20 @@ Data layer: Data/Images may get from existed database (mostly downloaded from on
 - Test.py --- define a function which use saved model files to identify and predict the category of the input picture.
 - st.py --- to design the interactive UI, contains UI components and also the functions behind of each elements
 
+### How to deploy this model and interactive UI in your PC
+1. Download all files and folders of this project.
+2. Open Fruit_recognition_with_CNN_Original.ipynb by your code editor, such as jupyter notebook..
+3. Change the path of 
+```ruby
+ train_dir = 'D:/Image Backup/Train'
+ ```
+ and
+ ```ruby
+test_dir = 'D:/Image Backup/Test'
+```
+to locate your onw train and test dataset.
+
+
 
 ## In order to present how the model can be used to optimize self-checking process, an interactive UI is designed to combine the model with a simple UI, to give user a clear view how it will be operated in real world.
 Prototype: see st.py
