@@ -111,5 +111,4 @@ Onion Red
 Tomato
 ```
 ## and you can download any image belongs to these 11 categories to TestImages folder and refresh the streamlit page to predict.
-<br />
 ## Have fun
