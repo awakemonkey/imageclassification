@@ -31,13 +31,17 @@ Camera on self-checking machine will capture the loosen items customer picked, t
 - pandas
 - numpy
 - **streamlit**
+- **CNN**
 
 ### Approach: 
 Hardware layer: Camera installed on self-checking machine to capture items which customer picked and require to correctly identify and measure the weight.
 Software layer: Use specific library/package (tensorflow and Keras)/algorithm (CNN) in Python to train and test Image Classification Model. 
 Data layer: Data/Images may get from existed database (mostly downloaded from online) or manually take by staff on supermarket.
 
-Training Image Classification Model: See Fruit_recognition_with_CNN_Original.ipynb
+### Files in this model
+- Fruit_recognition_with_CNN_Original.ipynb --- steps of how to use dataset to train a CNN model and save the models as h5 files for interactive UI)
+- Test.py --- define a function which use saved model files to identify and predict the category of the input picture.
+- st.py --- to design the interactive UI, contains UI components and also the functions behind of each elements
 
 
 ## In order to present how the model can be used to optimize self-checking process, an interactive UI is designed to combine the model with a simple UI, to give user a clear view how it will be operated in real world.
