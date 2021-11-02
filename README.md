@@ -1,5 +1,5 @@
 <h1 align="center">Fruit and Vegetables Classification Model</h1>
-### Author
+### Author ###
 **P.K**
 <p align="left">This project is still on going and coding part is not finished yet. The code files just present a prototpye of Image Classification model, which trained by using tensorflow, keras and CNN algorithm. And the sp.py file shows how to present the model with an interactive UI and it is completed now.
 The database used in this case is shorted by the original dataset from Fruit-360 on Kaggle, and the original dataset maybe too large to run when training the model, so I only keep 11 items with more than 7,000 images for model training. 
