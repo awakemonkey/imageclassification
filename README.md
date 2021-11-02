@@ -24,13 +24,13 @@ To design a Machine Learning based add-on and installed on self-checking machine
 Camera on self-checking machine will capture the loosen items customer picked, then based on Image recognition and Classification Model, the captured image will be processed and automatically be recognised as most possible category and specific item for customer to confirm.
 
 ### Language, library, algorithm in this case
--Python
--tensorflow
--keras
--sklearn
--pandas
--numpy
--**streamlit**
+- Python
+- tensorflow
+- keras
+- sklearn
+- pandas
+- numpy
+- **streamlit**
 
 ### Approach: 
 Hardware layer: Camera installed on self-checking machine to capture items which customer picked and require to correctly identify and measure the weight.
