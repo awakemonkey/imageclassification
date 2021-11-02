@@ -83,13 +83,12 @@ streamlit run st.py
 ```
 and you will see:
 ```ruby
-![image](https://user-images.githubusercontent.com/39287382/139845553-76219f81-ae18-44aa-ad00-97c63422cb78.png)
-
+You can now view your Streamlit app in your browser.
+Local URL: http://localhost:85xx
+Network URL: http://192.xxx.xxx.xxx
 ```
-9. Have fun and enjoy the **debugging**
-
-## In order to present how the model can be used to optimize self-checking process, an interactive UI is designed to combine the model with a simple UI, to give user a clear view how it will be operated in real world.
-Prototype: see st.py
+wait browser open a new page automatically or copy local URL to open a new page manually
+9. Then, have fun and enjoy the **debugging**
 
 
 
