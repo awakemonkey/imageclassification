@@ -55,8 +55,37 @@ Data layer: Data/Images may get from existed database (mostly downloaded from on
 test_dir = 'D:/Image Backup/Test'
 ```
 to locate your onw train and test dataset.
-
-
+4. Remember to print out the number of classes(categories) of dataset:
+```ruby
+# confirm the number of classes 
+no_of_classes = len(np.unique(y_train))
+no_of_classes
+11
+```
+the number of classes in this model is the value of Dense in the following code
+```ruby
+model.add(Dense(11,activation = 'softmax'))
+```
+5. Models saved as h5 files and in the path you set as below, these two files are the key things for predict input images.
+```ruby
+model.save('model.h5')
+model.save_weights('weights.h5')
+```
+6. Open st.py file in jupyter notebook or other options, change the path of following code to allocate the folder which contains images you want to predict and saved model files from **step 5**:
+```ruby
+test_path = 'D:/ImageProject/TestImages/'
+model_path = 'D:/ImageProject/model.h5'
+model_weights_path = 'D:/ImageProject/weights.h5'
+```
+7. Save st.py files, open terminal and allocate the folder contains st.py, input:
+```ruby
+streamlit run st.py
+```
+and you will see:
+```ruby
+![image](https://user-images.githubusercontent.com/39287382/139845553-76219f81-ae18-44aa-ad00-97c63422cb78.png)
+```
+9. Have fun and enjoy the **debugging**
 
 ## In order to present how the model can be used to optimize self-checking process, an interactive UI is designed to combine the model with a simple UI, to give user a clear view how it will be operated in real world.
 Prototype: see st.py
