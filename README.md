@@ -90,7 +90,7 @@ Network URL: http://192.xxx.xxx.xxx
 ```
 wait browser open a new page automatically or copy local URL to open a new page manually.<br />
 <br />
-8. Finally, have fun
+8. Finally, you can play it.
 <br />
 <br />
 <p>If you only want to try the demo/prototype, just start from Step 6 and make sure you change path to correct location, and you can try the model with any fruit and vegetables download from online. <br />
