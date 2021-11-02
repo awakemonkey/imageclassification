@@ -54,7 +54,7 @@ Data layer: Data/Images may get from existed database (mostly downloaded from on
  ```ruby
 test_dir = 'D:/Image Backup/Test'
 ```
-to locate your onw train and test dataset.
+to locate your onw train and test dataset.<br />
 **Note: I did not upload any train and test data to github, if you keep the same path as what I code, you can't get any result but bugs and errors.**
 4. Remember to print out the number of classes(categories) of dataset:
 ```ruby
